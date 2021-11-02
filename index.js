@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://madlar:1q2w3e4r!@boilerplate.zsfsd.mongodb.net/m
 .catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! ㅎㅇ')
 })
 
 app.post('/register', (req, res) => {
